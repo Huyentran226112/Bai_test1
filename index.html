@@ -21,11 +21,12 @@
             rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg custom-navbar fixed-top1 shadow-sm"
+    <header>
+        <nav class="navbar navbar-expand-lg custom-navbar fixed-top1"
             id="mainNav">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="#page-top">
-                    <img src="./img/logo.png" alt>
+                    <img srcset="./img/logo.png 2x" alt>
                 </a>
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -35,8 +36,7 @@
                     <i class="bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul
-                        class="navbar-nav custom-navbar-nav ms-auto my-3 my-lg-0">
+                    <ul class="navbar-nav custom-navbar-nav ms-auto my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3"
                                 href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3"
@@ -49,11 +49,17 @@
                                 href="#">Lighting </a></li>
                         <li class="nav-item" role="search">
                             <div class="search-container">
-                                <input class="form-control me-2" type="search"
+                                <input class="form-control me-2 custom-search" type="search"
                                     placeholder="Find something... "
-                                    aria-label="Search">
-                                <i class="fas fa-search search-icon"></i>
+                                    aria-label="Search" >
+                                    <i class="fas fa-search search-icon"></i>
                             </div>
+                        </li>
+                        <li class="nav-item cart-link ">
+                            <a href="javascript:void(0);" class="nav-link cart-btn">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="badge badge-circle">5</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -68,16 +74,15 @@
                             <div class="premium-title">
                                 <h1>Premium collection</h1>
                             </div>
-                            <p class="premium-text">
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing
-                                elit, sed diam nonummy nibh euismorem ipsum
-                                dolor sit amet, consectetuer adipiscing elit
-                            </p>
+                            <div class="premium-text-grap">
+                                <p class="custom-text-opensan-400 premium-text">
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing  elit, sed diam nonummy nibh euismorem ipsum  dolor sit amet, consectetuer adipiscing elit
+                                </p>
+                            </div>
                             <div class="premium-price">
                                 £2,300
                             </div>
-                            <a class=" btn premium-link" href="#">View the collection </a>
+                            <a class=" btn btn-primary premium-link" href="#">View thecollection </a>
                         </div>
                     </div>
                     <div class="col-8">
@@ -88,13 +93,13 @@
                             <div class="premium-right-items">
                                 <div class="premium-right-item">
                                     <div class="premium-right-item-name">
-                                        Lorem ipsum dolor sit amet
+                                        <a class="name"  href="#"> Lorem ipsum dolor sit amet</a>
                                     </div>
                                     <div class="premium-right-item-price">£2,300</div>
                                 </div>
                                 <div class="premium-right-item">
-                                    <div class="premium-right-item-name">
-                                        Consectetuer adsed diam
+                                    <div class="premium-right-item-names">
+                                       <a  class="names" href="#"> Consectetuer adsed diam</a>
                                     </div>
                                     <div class="premium-right-item-price">£2,300</div>
                                 </div>
@@ -104,17 +109,28 @@
                 </div>
             </div>
         </section>
+    </header>
+
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-8"></div>
-                    <div class="col-4">
-                        <div class="minimalist-text"></div>
-                        <div class="minimalist-divider"></div>
-                        <div class="minimalist-title"></div>
-                        <div class="minimalist-text"></div>
-                        <p class="minimalist-text"></p>
-                        <a class="minimalist-link" href="#"> </a>
+                    <div class="col-7">
+                        <div class="minimalist-image">
+                         <img  srcset="./img/logo1.jpg 2x" alt="">
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="minimalist-right">
+                            <div class="minimalist-text">
+                                <p class="">Living room</p>
+                            </div>
+                            <div class="minimalist-divider"></div>
+                            <div class="minimalist-title">
+                                <h2 >Minimalist furniture</h2>
+                            </div>
+                            <p class="custom-text-opensan-400 minimalist-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit, sed diam nonummy nibh euismorem </p>
+                            <a class="btn btn-primary premium-link minamlist-link" href="#"> View armchairs</a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,15 +1,146 @@
+
+header {
+  background-image: url(./img/bg-tron-1.png);
+  background-color: white;
+  background-position: top right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.search-container {
+  position: relative;
+}
+a.nav-link.me-lg-3 {
+  margin-right: 40px !important;
+  gap: 46px;
+}
+.search-container i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.custom-search {
+  border-radius: 100px;
+  border: 2px solid black;
+  background: #53c0c7;
+  color: black;
+}
 .nav-link {
   color: black;
 }
-.masthead {
+img{
+  max-width: 100%;
 }
-
 .about-img {
   width: 10px;
   height: 10px;
   margin-top: 236px;
 }
-.col-4{
-    padding-top: 300px;
-    padding-left: 91px;
+.navbar {
+  margin-bottom: 100px;
+}
+.premium {
+  padding-top: 180px;
+}
+.premium-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 145.83px;
+  margin-bottom: 25px;
+  max-width: 300px;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Raleway', sans-serif; */
+.premium-price{
+  font-family: "Open Sans", sans-serif;
+  font-size: 66,67px;
+  margin-bottom: 50px;
+}
+.premium-link {
+  background-color: #53c0c7;
+  border-color: #53c0c7;
+  padding: 20px 50px;
+  border-radius: 0;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.premium-text{
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.premium-right-items {
+  position: absolute;
+  top: 0;
+  right: 90px;
+  margin-top: 20px;
+}
+.premium-right-item {
+  display: flex;
+  gap: 10px;
+}
+.premium-right-item-name a{
+  color:white ;
+}
+.premium-right{
+  position: relative;
+  padding-bottom: 100px;
+}
+.premium-right-item-name{
+  text-align: right;
+}
+.premium-right-item-price{
+  color: white;
+}
+.names {
+  color: white;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.name{
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.minimalist-divider {
+  width: 64px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 30px;
+}
+.custom-text-opensan-400 {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #46464e;
+}
+.minimalist-title{
+margin-bottom: 40px;
+font-family: "Open Sans", sans-serif;
+font-weight: bold;
+}
+.minimalist-right{
+  max-width: 80%;
+}
+.minimalist-title{
+  max-width: 300px;
+}
+.minimalist-text{
+margin-bottom: 40px;
+}
+.cart-link a span {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: white;
+  background-color: red;
+  padding: 3px;
+}
+.cart-link a{
+  position: relative;
+}
+.minamlist-link{
+  margin-top:50px ;
+}
+.premium-text-grap{
+  max-width: ;
 }
