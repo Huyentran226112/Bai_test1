@@ -197,6 +197,16 @@ margin-bottom: 40px;
 .sepical-link {
   margin-top: 25px;
 }
+a.sepical-category {
+  position: absolute;
+}
+.sepical-category{
+  border-bottom: 3px solid black;
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+  margin-left: 25px;
+}
 
 .sub {
   padding: 100px 0 100px;
@@ -224,6 +234,10 @@ margin-bottom: 40px;
 .sub-input {
   padding: 13px;
  border: none;
+ /* border-left: none;
+    border-right: none;
+    border-top: none; */
+    border-radius: 0;
 }
 .sub-table {
   background-color: #f9a34c;
@@ -246,9 +260,27 @@ margin-bottom: 40px;
 
 }
 .lounge-col-img {
+  background-image: url(./img/dog.png);
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 653px;
+  background-size: cover;
   position: relative;
 }
-
+.lounge-title {
+  color: black;
+  max-width: 195px;
+  text-align: center;
+  z-index: 1;
+}
+.lounge-text-white{
+  color: white;
+}
+.lounge-col{
+  position: relative;
+}
 .lounge-col-img::before {
   content: "";
   position: absolute;
@@ -256,9 +288,10 @@ margin-bottom: 40px;
   left: 0;
   width:  100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(215, 144, 82, 0.74), hwb(28 32% 16% / 0.658));
-  opacity: 1;
-  z-index: 1;
+  background-color: black;
+  opacity: 0.5;
+
+  
 }
 .special-title,
 .special-text,
@@ -266,59 +299,136 @@ margin-bottom: 40px;
   position: relative;
   z-index: 2;
 }
-.lounge-col-img1 {
-  position: relative;
+.lounge-col-img1  {
+  background-image: url(./img/dog2.png);
+  min-height: 300px;
 }
-.lounge-col-img1::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom,rgba(226, 128, 147, 0.58),rgba(226, 128, 147, 0.579));
-  opacity: 1;
-  z-index: 1;
+.lounge-col-img1::before{
+background-color: #efa55e;
 }
-.lounge-col-imgs{
-  position: relative;
+.lounge-col-img2 {
+  min-height: 336px;
+  background-image: url(./img/dog3.png);
 }
-.lounge-col-imgs::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom,rgba(106, 98, 132, 0.679),rgba(106, 98, 132, 0.795));
-  opacity: 1;
-  z-index: 1;
+.lounge-col-img2::before{
+  background-color: #e8879b;
 }
 .lounge-col-img3{
-  position: relative;
+  background-image: url(./img/dog5.png);
+  min-height: 300px;
 }
 .lounge-col-img3::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom,rgba(105, 101, 107, 0.871),rgba(105, 101, 107, 0.871));
-  opacity: 1;
-  z-index: 1;
+background-color: #685f80;
 }
 .lounge-col-img4{
-  position: relative;
+  background-image: url(./img/dog6.png);
+  min-height:300px;
+
 }
 .lounge-col-img4::before{
+background-color: #51a3a8;
+}
+.lounge-divider {
+  width: 117px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #231f20;
+  /* margin-bottom: 28px; */
+  margin-top: 134px;
+  /* margin-left: -203px; */
+}
+.lounge-link{
+  color: #231f20;
+  text-decoration: none;
+}
+.lounge-link {
+  color: #231f20;
+  text-decoration: none;
+  border-bottom: 3px solid black;
+  padding-bottom: 3px;
+}
+.lounge-link-white{
+  color: white;
+  border-bottom-color:white;
+}
+.footer {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+button.slick-arrow {
+  display: none !important;
+}
+.sec-lounge {
+  padding-bottom: 120px;
+}
+/* footer */
+ul{
+  list-style: none;
+}
+.footer__colum{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-list a,
+.footer-menus a,
+.footer-link {
+    text-decoration: none; 
+    color:black ;
+}
+ul.footer-list {
+  margin-left: 117px;
+}
+ul.footer-menus {
+  margin-left: -30px;
+}
+.underlined-link::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
   width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom,rgba(85, 171, 176, 0.759),rgba(85, 171, 176, 0.742));
-  opacity: 1;
-  z-index: 1;
+  height: 1px;
+  background-color: #000; 
+}
+footer {
+  position: relative;
+  overflow: hidden;
+}
+footer::before {
+  position: absolute;
+  bottom: -87%;
+  right: -172px;
+  width: 800px;
+  height: 800px;
+  background: #53c0c7;
+  border-radius: 50%;
+  content: '';
+  z-index: -1;
+}
+
+/* gach chân  */
+.footer{
+  text-align: center;
+  position: relative;
+}
+.footer:after {
+  content: "";
+  width: 59%;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  left: 4px;
+  bottom: 58px;
+  padding-bottom: 1px;
+  top: 84%;
+  transform: translateY(-50%);
+}
+.footer-copyright {
+  margin-bottom: 100px;
+    
+}
+.footer-right {
+  margin-left: 100px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  text-decoration: none;
 }

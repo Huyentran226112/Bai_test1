@@ -24,6 +24,10 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@900&display=swap"
             rel="stylesheet">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
     <body>
         <header>
@@ -79,7 +83,7 @@
             <section class="sec-prenium">
                 <div class="container">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-lg-4">
                             <div class="premium">
                                 <div class="premium-title">
                                     <h1>Premium collection</h1>
@@ -100,7 +104,7 @@
                                     href="#">View thecollection </a>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-lg-8">
                             <div class="premium-right">
                                 <div class="premium-right-img">
                                     <img src="./img/header.png" alt>
@@ -130,12 +134,13 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-6">
                         <div class="minimalist-image">
                             <img src="./img/logo1.jpg" alt>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
                         <div class="minimalist-right">
                             <div class="minimalist-text">
                                 <p class>Living room</p>
@@ -157,7 +162,7 @@
         </section>
         <section class="sepical">
             <div class="container">
-                <div class="col-12">
+                <div class="col-lg-12">
                     <h2 class="sepical-heading text-center">Sepical discounts</h2>
                     <div class="row special-row">
                         <div class="why-title">
@@ -167,6 +172,7 @@
                 </div>
                 <div class="sepical-list">
                     <div class="sepical-img">
+                        <a href="#" class="sepical-category">Chairs</a>
                         <img class="img-fluid" src="./img/anh.png" alt
                             class="img-fluid">
                         <div class="sepical-item">
@@ -183,6 +189,7 @@
                         </div>
                     </div>
                     <div class="sepical-img">
+                        <a href="#" class="sepical-category">Tables</a>
                         <img class="img-fluid" src="./img/anh2.png" alt
                             class="img-fluid">
                         <div class="sepical-item">
@@ -214,9 +221,21 @@
                                 href="#"> View Sweedish white</a>
                         </div>
                     </div>
-                    <div class="sepical-imgs">
-                        <img class="img-fluid" src="./img/anh4.png" alt
-                            class="img-flui">
+                    <div class="sepical-img">
+                        <img class="img-fluid" src="./img/anh.png" alt
+                            class="img-fluid">
+                        <div class="sepical-item">
+                            <div class="sepical-title">
+                                <h3> Sweedish white</h3>
+                            </div>
+                            <p class="text">
+                                <span class="desc">£299 </span>£199 | next dat
+                                delivery
+                            </p>
+                            <a
+                                class="btn btn-primary premium-link minamlist-link"
+                                href="#"> View Sweedish white</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -224,35 +243,63 @@
         <section class="sec-lounge">
             <div class="container">
                 <div class="row mb-3">
-                    <div class="col-6">
-                        <div class="lounge-col-img">
-                            <img src="./img/dog.png" alt>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="row">
-                            <div class="col-12 mb-3">
-                                <div class="lounge-col-img1 py-2">
-                                    <img src="./img/dog2.png" alt>
+                    <div class="col-lg-6">
+                        <div class="lounge-col">
+                            <div class="lounge-col-img">
+                                <!-- <img src="./img/dog.png" alt> -->
+                                <div class="lounge-title">
+                                    <h3>Lounge furniture</h3>
+                                    <a href="#" class="lounge-link">View
+                                        collections</a>
                                 </div>
                             </div>
-                            <div class="col-12 mb-2">
-                                <div class="lounge-col-imgs py-2">
-                                    <img src="./img/dog3.png" alt>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="lounge-col-img lounge-col-img1 py-2">
+                                    <div class="lounge-title">
+                                        <h3>Bedroom furniture</h3>
+                                        <a href="#" class="lounge-link">View
+                                            collections</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mb-2">
+                                <div class="lounge-col-img lounge-col-img2 py-2">
+                                    <!-- <img src="./img/dog3.png" alt> -->
+                                    <div class="lounge-title">
+                                        <h3>Kitchens and kitchenware</h3>
+                                        <a href="#" class="lounge-link">View
+                                            collections</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                        <div class="lounge-col-img3">
-                            <img src="./img/dog5.png" alt>
+                    <div class="col-lg-4 ">
+                        <div class="lounge-col-img lounge-col-img3">
+                            <div class="lounge-title">
+
+                                <h3 class="lounge-text lounge-text-white">Special
+                                    offers</h3>
+                                <a href="#"
+                                    class="lounge-link lounge-link-white">View
+                                    deals</a>
+
+                            </div>
                         </div>
                     </div>
-                    <div class="col-8">
-                        <div class="lounge-col-img4">
-                            <img src="./img/dog6.png" alt>
+                    <div class="col-lg-8">
+                        <div class="lounge-col-img lounge-col-img4">
+                            <!-- <img src="./img/dog6.png" alt> -->
+                            <div class="lounge-title">
+                                <h3>Lighting</h3>
+                                <a href="#" class="lounge-link">View deals</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -260,10 +307,10 @@
             <section class="sub">
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <div class="sub-content">
                                 <h2 class="sub-title">
-                                    jon our maiking list
+                                    join our maiking list
                                 </h2>
                                 <p class="custom-text-opensan">
                                     Lorem ipsum dolor sit amet,
@@ -278,7 +325,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6">
                             <div class="sub-list">
                                 <div class="sub-item">
                                     <input type="text"
@@ -296,61 +343,125 @@
                     </div>
                 </div>
             </section>
-          <section class="footer">
-            <div class="container">
-               <div class="footer-colum">
-                <h3 class="footer-title text-center">Departments</h3>
-                <ul class="footer-menu">
-                    <li class="footer-text">
-                        <a href="#">Living room</a>
-                    </li>
-                    <li >
-                        <a href="#">Sofas/chairs</a>
-                    </li>
-                    <li >
-                        <a href="#">Lorem ipsum </a>
-                    </li>
-                    <li >
-                        <a href="#">Dolor sit amet</a>
-                    </li>
-                    <li  class="footer-text">
-                        <a href="#">Consectetuer </a>
-                    </li>
-                    <li class="footer-text">
-                        <a href="#">Bathoom</a>
-                    </li>
-                     <li >
-                        <a href="#">Sofas/chairs</a>
-                    </li> 
-                    <li >
-                        <a href="#">Lorem ipsum </a>
-                    </li>
-                </ul>
-                <ul class="footer-menus">
-                    <li class="footer-text">
-                        <a  href="#" class="footer-link">Bathoom</a>
-                    </li>
-                    <li >
-                        <a href="#" class="footer-link" >Sofas/chairs</a>
-                    </li>
-                    <li >
-                        <a href="#" class="footer-link">Lorem ipsum </a>
-                    </li>
-                    <li class="footer-text">
-                        <a href="#" class="footer-link">Bedroom</a>
-                    </li>
-                    <li >
-                        <a href="#" class="footer-link">Lorem ipsum </a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Dolor sit amet</a>
-                    </li>
-                     <li >
-                        <a href="#" class="footer-link">Consectetuer </a>
-                    </li> 
-                </ul>
-               </div>
-            </div>
-          </section>
+            <!-- footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="sec-footer-left">
+                                <h3 class="footer-heading">
+                                    Departments
+                                </h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <ul class="footer-list">
+                                        <li class="footer-item">
+                                            <a href="#">Living room</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sofas/chairs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Lorem ipsum </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Dolor sit amet</a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="#">Consectetuer </a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="#">Bathoom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sofas/chairs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Lorem ipsum </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-5">
+                                    <ul class="footer-menus">
+                                        <li class="footer-item">
+                                            <a href="#" class="footer-link">Bathoom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-link">Sofas/chairs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-link">Lorem
+                                                ipsum </a>
+                                        </li>
+                                        <li class="footer-item">
+                                            <a href="#" class="footer-link">Bedroom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-link">Lorem
+                                                ipsum </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-link">Dolor
+                                                sit amet</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-link">Consectetuer
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="sec-footer-left">
+                                <h3 class="footer-heading">
+                                    Contact
+                                </h3>
+                                <ul class="footer-menus">
+                                    <li class="footer-item">
+                                        <a href="#" class="footer-link">Customer
+                                            support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Call
+                                            01482128394</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Send
+                                            usamessage</a>
+                                    </li>
+                                    <li class="footer-item">
+                                        <a href="#" class="footer-link">The team</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="footer-link">Team
+                                            careers</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer-icon">
+                            <ul class="footer-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                    <a href="#" class=" footer-right">Made in Hornsea, East Yorkshire, England | www.uirepublic.net</a>
+            </footer>
         </body>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="./app.js"></script>
     </html>
