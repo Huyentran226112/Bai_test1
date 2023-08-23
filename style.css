@@ -290,8 +290,6 @@ a.sepical-category {
   height: 100%;
   background-color: black;
   opacity: 0.5;
-
-  
 }
 .special-title,
 .special-text,
@@ -315,14 +313,14 @@ background-color: #efa55e;
 }
 .lounge-col-img3{
   background-image: url(./img/dog5.png);
-  min-height: 300px;
+  min-height: 451px;
 }
 .lounge-col-img3::before{
 background-color: #685f80;
 }
 .lounge-col-img4{
   background-image: url(./img/dog6.png);
-  min-height:300px;
+  min-height:451px;
 
 }
 .lounge-col-img4::before{
