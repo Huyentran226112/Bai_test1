@@ -124,7 +124,7 @@ img {
   font-size: 40px;
 }
 .minimalist-right {
-  max-width: 80%;
+  max-width: 90%;
 }
 .minimalist-text {
   margin-bottom: 40px;
@@ -141,7 +141,7 @@ img {
   position: relative;
 }
 .minamlist-link {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .minimalist-image {
   margin-bottom: 100px;
@@ -155,23 +155,27 @@ img {
   background-repeat: no-repeat;
 }
 .sepical-heading {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  margin-bottom: 100px;
-  font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+    font-size: 40px;
+}.sub-col-left {
+    padding-right: 83px;
 }
 .desc {
   color: red;
   text-decoration-line: line-through;
   margin-right: 5px;
 }
+
 .sepical-list {
   display: flex;
   align-items: center;
   gap: 0 70px;
 }
 .img-fluid {
-  max-width: 400px;
+  margin-left: 30px;
+  max-width: 308px;
 }
 .sepical-item {
   text-align: center;
@@ -197,8 +201,8 @@ a.sepical-category {
   border-bottom: 3px solid black;
   text-decoration: none;
   color: black;
-  margin-top: 15px;
-  margin-left: 25px;
+  margin-top: 6px;
+  margin-left: 50px;
 }
 .sub {
   padding: 100px 0 100px;
@@ -230,16 +234,16 @@ a.sepical-category {
   width: 100%;
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
   background: #f2f2f2;
-  font-weight: 400;
+  font-weight: 500;
 }
 .sub-table {
   background-color: #f9a34c;
   color: white;
-  padding: 20px;
+  padding: 24px;
   border-radius: 0px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Open Sans", sans-serif;
   display: block;
   margin-top: 40px;
@@ -248,7 +252,7 @@ a.sepical-category {
   background-color: #f9a34c;
 }
 .sub-col-left {
-  padding-right: 127px;
+    padding-right: 83px;
 }
 .custom-text-opensan {
   font-weight: 400;
@@ -380,9 +384,13 @@ button.slick-arrow {
 .desgn {
   color: #46464e;
   text-decoration: none;
-
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
+}
+.dark{
+  color:#231f20;
+  font-weight: 500;
+  text-decoration: none;
 }
 li {
   list-style: none;
@@ -442,5 +450,4 @@ button.slick-arrow {
   height: 1px;
   background-color: #000;
 }
-
 

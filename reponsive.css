@@ -5,6 +5,15 @@
   .premium-link {
     margin-bottom: 50px;
   }
+  .sepical {
+    background: unset;
+  }
+  .lounge-col-img.lounge-col-img3 {
+    margin-bottom: 18px;
+  }
+  .sub-form {
+    margin-right: 0px;
+}
 }
 @media screen and (max-width: 767px) {
   .navbar {
@@ -77,5 +86,8 @@
   }
   .sepical {
     padding: 40px 0 100px;
+  }
+  .cart-link a {
+    visibility: hidden;
   }
 }
