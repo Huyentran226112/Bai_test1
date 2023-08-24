@@ -53,9 +53,6 @@ img {
 .sepical-imgs {
   margin-top: -320px;
 }
-
-/* font-family: 'Inter', sans-serif;
-font-family: 'Raleway', sans-serif; */
 .premium-price {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
@@ -129,7 +126,6 @@ font-family: 'Raleway', sans-serif; */
 .minimalist-right {
   max-width: 80%;
 }
-
 .minimalist-text {
   margin-bottom: 40px;
 }
@@ -204,7 +200,6 @@ a.sepical-category {
   margin-top: 15px;
   margin-left: 25px;
 }
-
 .sub {
   padding: 100px 0 100px;
   background-color: #f2f2f2;
@@ -350,7 +345,6 @@ a.sepical-category {
   color: white;
   border-bottom-color: white;
 }
-
 button.slick-arrow {
   display: none !important;
 }
@@ -393,7 +387,6 @@ button.slick-arrow {
 li {
   list-style: none;
 }
-
 .footer-link {
   display: flex;
 }
@@ -401,7 +394,6 @@ li {
   border-top: 1px solid #46464e;
   padding-top: 40px;
 }
-
 .footer-img {
   background-image: url(./img/hìnhtroncuoi.jpg);
   background-repeat: top right;
@@ -418,7 +410,6 @@ li {
 .col-6 {
   margin-bottom: 100px;
 }
-
 .footer-copyright {
   margin-bottom: 40px;
 }
@@ -441,11 +432,9 @@ li {
   margin-left: 270px;
   max-width: 245px;
 }
-
 button.slick-arrow {
   display: none !important;
 }
-
 .underlined-link::before {
   content: "";
   display: block;
