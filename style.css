@@ -150,9 +150,6 @@ font-family: 'Raleway', sans-serif; */
 .minimalist-image {
   margin-bottom: 100px;
 }
-/* .premium-text-grap{
-  max-width: ;
-} */
 .sepical {
   padding: 100px 0 100px;
   background-image: url(./img/bg-tron-2.png);
@@ -212,6 +209,10 @@ a.sepical-category {
   padding: 100px 0 100px;
   background-color: #f2f2f2;
 }
+
+.sub-form {
+  margin-right: 64px;
+}
 .sub-title {
   margin-bottom: 50px;
   font-family: "Open Sans", sans-serif;
@@ -242,7 +243,7 @@ a.sepical-category {
   background-color: #f9a34c;
   color: white;
   padding: 20px;
-  border: none;
+  border-radius: 0px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   display: block;
@@ -360,7 +361,9 @@ button.slick-arrow {
 button.slick-arrow {
   display: none !important;
 }
-
+.bathoom-col {
+  margin-bottom: 52px;
+}
 .footer {
   padding-top: 100px;
   position: relative;
@@ -451,54 +454,4 @@ button.slick-arrow {
   background-color: #000;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar {
-    margin-bottom: 25px;
-  }
-  header {
-    background-image: unset;
-  }
-  .premium {
-    padding-top: 0px;
-    padding-bottom: 50px;
-  }
-  .premium-right {
-    position: relative;
-    padding-bottom: 50px;
-  }
-  .premium-title {
-    font-family: "Open Sans", sans-serif;
-    font-size: 145.83px;
-    margin-bottom: 15px;
-    max-width: 300px;
-    font-size: 50px;
-  }
-  .premium-right-items {
-    position: absolute;
-    top: 0;
-    right: 90px;
-    margin-top: 20px;
-    margin-left: 0px;
-    transform: translateX(70px);
-  }
-  .minimalist-image {
-    margin-bottom: 50px;
-  }
-  .minimalist-title h2 {
-    font-size: 31px;
-    margin-bottom: 15px;
-  }
-  .sub-col-left {
-    padding-right: 0px;
-  }
-  .sepical {
-    background: unset;
-  }
-  .footer::before {
-    background: unset;
-  }
- 
-  .minamlist-link {
-    margin-top: 0px;
-}
-}
+
