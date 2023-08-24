@@ -349,10 +349,6 @@ button.slick-arrow {
 .sec-lounge {
   padding-bottom: 120px;
 }
-
-button.slick-arrow {
-  display: none !important;
-}
 .bathoom-col {
   margin-bottom: 52px;
 }
@@ -431,9 +427,6 @@ li {
   gap: 0 25px;
   margin-left: 270px;
   max-width: 245px;
-}
-button.slick-arrow {
-  display: none !important;
 }
 .underlined-link::before {
   content: "";
