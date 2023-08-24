@@ -3,7 +3,7 @@
     padding-top: 0px;
   }
   .premium-link {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .sepical {
     background: unset;
@@ -13,7 +13,20 @@
   }
   .sub-form {
     margin-right: 0px;
-}
+  }
+  .cart-link a {
+    visibility: hidden;
+  }
+  .img-fluid {
+    margin-left: 30px;
+    max-width: 204px;
+  }
+  .sepical-item {
+    text-align: center;
+    padding: 5px;
+    margin-left: 28px;
+  }
+
 }
 @media screen and (max-width: 767px) {
   .navbar {
@@ -89,5 +102,9 @@
   }
   .cart-link a {
     visibility: hidden;
+  }
+  .img-fluid {
+    margin-left: 30px;
+    max-width: 331px;
   }
 }
