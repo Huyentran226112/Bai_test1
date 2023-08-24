@@ -1,0 +1,17 @@
+@media only screen and (max-width: 991px) {
+    .navbar {
+        margin-bottom: 25px;
+      }
+      header {
+        background-image: unset;
+      }
+    
+    .premium {
+        padding-top: 0px;
+       
+      }
+
+
+}
+
+  
