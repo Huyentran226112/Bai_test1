@@ -1,4 +1,7 @@
 @media screen and (max-width: 1023px) {
+  header{
+    background: unset;
+  }
   .premium {
     padding-top: 0px;
   }
@@ -18,9 +21,9 @@
     visibility: hidden;
   }
   .img-fluid {
-    margin-left: 30px;
+    margin-left: 16px;
     max-width: 204px;
-  }
+}
   .sepical-item {
     text-align: center;
     padding: 5px;
@@ -29,6 +32,16 @@
   .premium-link {
     padding: 11px 15px;
   }
+  .footer::before {
+    background: unset;
+  }
+  .footer {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .footer-right {
+    margin-left: 37px;
+}
 }
 @media screen and (max-width: 767px) {
   .navbar {
