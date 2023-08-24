@@ -43,13 +43,7 @@ img {
 .premium {
   padding-top: 180px;
 }
-.premium-title {
-  font-family: "Open Sans", sans-serif;
-  font-size: 145.83px;
-  margin-bottom: 25px;
-  max-width: 300px;
-  font-size: 50px;
-}
+
 .sepical-imgs {
   margin-top: -320px;
 }
@@ -174,8 +168,8 @@ img {
   gap: 0 70px;
 }
 .img-fluid {
-  margin-left: 30px;
-  max-width: 340px;
+  margin-left: 31px;
+  max-width: 400px;
 }
 .sepical-item {
   text-align: center;
@@ -201,8 +195,8 @@ a.sepical-category {
   border-bottom: 3px solid black;
   text-decoration: none;
   color: black;
-  margin-top: 6px;
-  margin-left: 50px;
+  margin-top: 14px;
+  margin-left: 65px;
 }
 .sub {
   padding: 100px 0 100px;
