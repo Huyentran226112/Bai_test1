@@ -309,21 +309,21 @@ a.sepical-category {
   min-height: 300px;
 }
 .lounge-col-img1::before {
-  background-color: #efa55e;
+  background-color: #bd667a;
 }
 .lounge-col-img2 {
   min-height: 336px;
   background-image: url(./img/dog3.png);
 }
 .lounge-col-img2::before {
-  background-color: #e8879b;
+  background-color: #685f80;
 }
 .lounge-col-img3 {
   background-image: url(./img/dog5.png);
   min-height: 440px;
 }
 .lounge-col-img3::before {
-  background-color: #685f80;
+  background-color: #636067;
 }
 .lounge-col-img4 {
   background-image: url(./img/dog6.png);
