@@ -148,7 +148,7 @@ h1.premium-heading {
   margin-bottom: 100px;
 }
 .sepical {
-  padding: 139px 0 100px;
+  padding: 38px 0 100px;
   background-image: url(./img/bg-tron-2.png);
   background-color: white;
   background-position: top left;
@@ -183,7 +183,7 @@ h1.premium-heading {
   padding: 50px;
 }
 .sepical-heading {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 .sepical-title {
   font-size: 25px;
@@ -295,7 +295,7 @@ a.sepical-category {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: #d5924f;
   opacity: 0.5;
 }
 .special-title,
