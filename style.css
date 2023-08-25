@@ -74,7 +74,7 @@ h1.premium-heading {
 .premium-right-items {
   position: absolute;
   top: 0;
-  right: 90px;
+  right: 25px;
   margin-top: 20px;
 }
 .premium-right-item {
@@ -283,6 +283,7 @@ a.sepical-category {
 }
 .lounge-text-white {
   color: white;
+  max-width: 123px;
 }
 .lounge-col {
   position: relative;
