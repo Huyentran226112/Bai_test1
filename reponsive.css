@@ -161,7 +161,7 @@
     margin-left: 37px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .navbar {
     margin-bottom: 25px;
   }
@@ -270,9 +270,9 @@
     margin-bottom: 20px;
   }
   .img-fluid {
-    margin-left: 30px;
-    max-width: 295px;
-  }
+    margin-left: 25px;
+    max-width: 200px;
+}
   .footer-copyright {
     padding-top: 30px;
     margin-bottom: 30px;
