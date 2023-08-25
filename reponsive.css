@@ -91,7 +91,7 @@
   }
   .img-fluid {
     margin-left: 16px;
-    max-width: 215px;
+    max-width: 365px;
     margin-bottom: 30px;
   }
   .sepical-item {
@@ -118,7 +118,6 @@
     margin-top: 25px;
   }
   .lounge-text-white {
-    /* color: white; */
     font-size: 25px;
   }
   .lounge-link {
@@ -166,7 +165,7 @@
     background-size: 45%;
   }
   .premium-link {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
   .premium {
     padding-top: 0px;
