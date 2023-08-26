@@ -31,7 +31,8 @@ a.nav-link.me-lg-3 {
   color: black;
 }
 img {
-  max-width: 100%;
+  max-width: 95%;
+  margin-left: 20px;
 }
 .about-img {
   width: 10px;
@@ -83,6 +84,9 @@ h1.premium-heading {
 }
 .premium-right-item-name a {
   color: white;
+}
+.premium-right-img {
+  margin-left: 30px;
 }
 .premium-right {
   position: relative;
@@ -175,9 +179,9 @@ h1.premium-heading {
   gap: 0 70px;
 }
 .img-fluid {
-  margin-left: 31px;
+  margin-left: 20px;
   max-width: 400px;
-}
+} 
 .sepical-item {
   text-align: center;
   padding: 50px;
